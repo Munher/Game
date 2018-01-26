@@ -1,0 +1,52 @@
+body {
+    background-color: antiquewhite;
+    font-family: PT 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#inicio {
+    border:3px solid brown;
+    border-radius: 5px;
+    background-color: wheat;
+    margin:0 auto;
+    padding:30px;
+    text-align: center;
+}
+
+#nombre {
+    text-align: center;
+    width:100%;
+}
+
+#nombre:invalid {
+    border-color: red;
+}
+
+#nombre:valid {
+    border-color: green;
+}
+
+#vTerminar {
+    width:5em;
+}
+
+#islas {
+    text-align:center;
+    border-top: 1px solid black;
+    padding:15px;
+}
+
+#islas > img {
+    border:2px solid brown;
+    width:150px;
+    height:150px;
+}
+
+#fotos {
+    text-align:center;
+    padding:10px;
+}
+
+#fotos > img {
+    width:100px;
+    height:100px;
+}

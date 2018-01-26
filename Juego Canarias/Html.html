@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link type="text/css" href="css/css.css" rel="Stylesheet" />
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" media="screen" rel="stylesheet" type="text/css" />
+        <link type="text/css" href="jquery-ui-1.11.4.custom/jquery-ui.css" rel="Stylesheet" id="linkestilo" />
+        <script src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+        <script src="jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script src="javascript/javascript.js"></script>    	    
+    </head>
+    <body>
+        <form method="POST" action="#">
+            <div id="inicio">
+                <h2>¿De qué isla es cada paisaje?</h2>
+                <p id="puntuacion">Tu puntuación es:  0</p>
+                <input type="text" id="nombre" placeholder="Nombre de usuario" maxlength="100" pattern="[A-Za-z ]{0,100}" title="Solo letras hasta 100 caracteres" required/><br />
+                <input type="button" id="empezar" value="Jugar" />
+                <input type="button" id="comprobar" value="Terminar" />
+            </div><br />
+            <div id="vModal"></div>
+            <div id="vTerminar"></div>
+            <div id="playAgain"></div>
+            <div id="fotos"></div>
+            <div id="islas"></div>
+            <p id="puntuacion"></p>
+        </form>
+    </body>
+</html>
